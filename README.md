@@ -1,5 +1,9 @@
 # Ames, IA Housing Prices
 
+## Abstract
+
+Data scientists use regression models to predict future numerical outcomes based on ancillary information, such as the lifetime in miles of a car based on make/model and usage patterns, or the terminal crown height of a tree based on species and environmental factors. In this case study, we use real estate data from home sales in Ames, IA between 2006 and 2010 to build a model that can predict future sale prices. The data considered include years (e.g., the year of the last remodel), areas (e.g., lot size), room counts (e.g., number of kitchens), and quality scores (e.g., general condition on a 1--10 scale), and the resultant model explains 86% of the variance in sale prices. With this model, we can give practical advice to homeowners and home sellers by identifying those features which add the most value to a home.
+
 ## Data Dictionary
 
 (Descriptions here culled from original data dictionary.)
@@ -89,5 +93,3 @@
 | ames    |          | **Sale Type**       | `object` (Nominal)           | (2926,)    | Type of sale
 | ames    |          | **SalePrice**       | `float64` (Continuous)       | (2926,)    | Sale price $$
 | ames    |          | **Dataset**         | `object` (Nominal)           | (2926,)    | Represents one of "test" or "train", corresponding to the original test–train split
-
-
